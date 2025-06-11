@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>QR Code Result</title>
+</head>
+<body>
+    <h1>Your QR Code</h1>
+    <img src="{{ url_for('qr_image', filename=filename) }}" alt="QR Code">
+    <br><br>
+    <a href="/">Generate Another</a>
+</body>
+</html>
